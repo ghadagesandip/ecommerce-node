@@ -22,7 +22,7 @@ const createToken = (user) => {
 
 
 export const index = (req, res) => {
-	formatResponse(res,'welcome to home service apis');
+	formatResponse(res,'welcome to ecommerce apis');
 };
 
 

@@ -35,8 +35,9 @@ app.use(bodyParser.urlencoded({ extended: true, limit: '1024mb' }));
 // importing all routes
 import userRoute from './modules/user/router';
 import categoryRoute from './modules/category/router';
+import productsRoute from './modules/products/router';
 
-app.use('/api', userRoute, categoryRoute);
+app.use('/api', userRoute, categoryRoute, productsRoute);
 
 
 // If that above routes didnt work, we 404 them and forward to error handler
