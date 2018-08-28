@@ -1,0 +1,8 @@
+node_modules/
+log/
+package-lock.json
+config/prod_config.js
+config/test_config.js
+config/dev_config.js
+.vscode
+/dist

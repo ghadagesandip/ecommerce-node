@@ -1,0 +1,147 @@
+swagger: '2.0'
+info:
+  version: '1.0'
+  title: Picstagraph
+  description: ''
+host: http:10.0.29.42:3000
+basePath: /api/
+schemes:
+- http
+consumes:
+- application/json
+produces:
+- application/json
+paths:
+  /signin/:
+    post:
+      summary: user signin
+      tags:
+      - users
+      operationId: SigninPost
+      produces:
+      - application/json
+      parameters:
+      - name: Body
+        in: body
+        required: true
+        description: ''
+        schema:
+          $ref: '#/definitions/UserSigninrequest'
+      responses:
+        200:
+          description: ''
+      security: []
+      x-unitTests:
+      - request:
+          method: POST
+          uri: /signin/
+          headers:
+            Content-Type: application/json
+          body: '{"email":"sandip.ghadge@wwindia.com","password":"sandip"}'
+        expectedResponse:
+          x-allowExtraHeaders: true
+          x-bodyMatchMode: NONE
+          x-arrayOrderedMatching: false
+          x-arrayCheckCount: false
+          x-matchResponseSchema: true
+          headers: {}
+        x-testShouldPass: true
+        x-testEnabled: true
+        x-testName: user signin
+      x-operation-settings:
+        CollectParameters: false
+        AllowDynamicQueryParameters: false
+        AllowDynamicFormParameters: false
+        IsMultiContentStreaming: false
+  /signup:
+    post:
+      description: user registration
+      summary: user signup
+      tags:
+      - users
+      operationId: SignupPost
+      produces:
+      - application/json
+      parameters:
+      - name: Body
+        in: body
+        required: true
+        description: ''
+        schema:
+          $ref: '#/definitions/UserSignuprequest'
+      responses:
+        200:
+          description: ''
+      security: []
+      x-unitTests:
+      - request:
+          method: POST
+          uri: /signup
+          headers:
+            Content-Type: application/json
+          body: '{"username":"sandip","email":"sandip.ghadge@wwindia.com","password":"sandip","gender":"Male"}'
+        expectedResponse:
+          x-allowExtraHeaders: true
+          x-bodyMatchMode: NONE
+          x-arrayOrderedMatching: false
+          x-arrayCheckCount: false
+          x-matchResponseSchema: true
+          headers: {}
+        x-testShouldPass: true
+        x-testEnabled: true
+        x-testName: user signup
+        x-testDescription: user registration
+      x-operation-settings:
+        CollectParameters: false
+        AllowDynamicQueryParameters: false
+        AllowDynamicFormParameters: false
+        IsMultiContentStreaming: false
+definitions:
+  UserSigninrequest:
+    title: user signinRequest
+    example:
+      email: sandip.ghadge@wwindia.com
+      password: sandip
+    type: object
+    properties:
+      email:
+        description: ''
+        example: sandip.ghadge@wwindia.com
+        type: string
+      password:
+        description: ''
+        example: sandip
+        type: string
+    required:
+    - email
+    - password
+  UserSignuprequest:
+    title: user signupRequest
+    example:
+      username: sandip
+      email: sandip.ghadge@wwindia.com
+      password: sandip
+      gender: Male
+    type: object
+    properties:
+      username:
+        description: ''
+        example: sandip
+        type: string
+      email:
+        description: ''
+        example: sandip.ghadge@wwindia.com
+        type: string
+      password:
+        description: ''
+        example: sandip
+        type: string
+      gender:
+        description: ''
+        example: Male
+        type: string
+    required:
+    - username
+    - email
+    - password
+    - gender

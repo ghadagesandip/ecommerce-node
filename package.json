@@ -1,0 +1,51 @@
+{
+	"name": "backend",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"add:admin": "babel-node init.js --presets env",
+		"dev": "babel-node server.js --presets env",
+		"build": "rimraf dist/* && babel ./ -d dist --presets env --ignore ./node_modules,./.babelrc,./package.json,./package-lock.json,./npm-debug.log,./README.md --copy-files --require babel-polyfill",
+		"prestart":"npm run build",
+		"start": "node dist/server.js",
+		"watch": "nodemon server.js --exec babel-node --presets env",
+		"test": "mocha --recursive --compilers js:babel-register",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix"
+	},
+	"dependencies": {
+		"aws-sdk": "^2.288.0",
+		"babel-cli": "^6.26.0",
+		"babel-plugin-transform-async-to-generator": "^6.24.1",
+		"babel-plugin-transform-runtime": "^6.23.0",
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-es2015": "^6.24.1",
+		"babel-preset-stage-2": "^6.24.1",
+		"babel-register": "^6.26.0",
+		"babelify": "^8.0.0",
+		"bcryptjs": "^2.4.3",
+		"body-parser": "^1.18.3",
+		"browserify": "^16.2.2",
+		"compression": "^1.7.3",
+		"cors": "^2.8.4",
+		"debug": "~2.6.9",
+		"express": "~4.16.0",
+		"helmet": "^3.12.1",
+		"joi": "^13.4.0",
+		"jsonwebtoken": "^8.3.0",
+		"mongoose": "^5.2.3",
+		"nodemailer": "^4.6.7",
+		"speakeasy": "^2.0.0",
+		"swagger-ui-express": "^3.0.10",
+		"winston": "^3.0.0",
+		"winston-daily-rotate-file": "^3.3.0",
+		"yamljs": "^0.3.0"
+	},
+	"devDependencies": {
+		"chai": "^4.1.2",
+		"eslint": "^5.2.0",
+		"mocha": "^5.2.0",
+		"rimraf": "^2.6.2",
+		"supertest": "^3.1.0"
+	}
+}
