@@ -19,13 +19,55 @@ export const add = async (req, res) =>{
 			logger.info(category);
 		}
 	}catch(err){
-		console.log('err', err)
-		// logger.log({
-		// 	level: 'error',
-		// 	message: 'Error while saving category',
-		// 	err: err
-		//   });
+		logger.log({
+			level: 'error',
+			message: 'Error while saving category',
+			err: err
+		  });
 		formatResponse(res, err);
 	}
 
 };
+
+
+export const edit = async(req, res) => {
+
+	
+	try{
+		
+		var category = await categorylib.updateCategory(req.params.id, req.body)
+
+		if(category){
+			formatResponse(res, category);
+		}else{
+			logger.info(category);
+		}
+	}catch(err){
+		logger.log({
+			level: 'error',
+			message: 'Error while saving category',
+			err: err
+		  });
+		formatResponse(res, err);
+	}
+}
+
+
+export const remove = async(req, res) => {
+	try{
+
+		var deleted = await categorylib.deleteCategory(req.params.id);
+		if(deleted){
+			formatResponse(res, deleted);
+		}else{
+			logger.info(deleted);
+		}
+	}catch(err){
+		logger.log({
+			level: 'error',
+			message: 'Error while deleting category',
+			err: err
+		  });
+		formatResponse(res, err);
+	}
+}
