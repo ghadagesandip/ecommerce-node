@@ -24,6 +24,7 @@ export const updateCategory = async(id,input) => {
 }
 
 export const deleteCategory = async (id) => {
+    console.log('detele id', id)
     try{
         return await Category.deleteOne({_id:id}, function (err) {
             if (err) return handleError(err);
