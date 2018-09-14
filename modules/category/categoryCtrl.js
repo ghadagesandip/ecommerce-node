@@ -5,7 +5,17 @@ import formatResponse from '../../utils/formatResponse';
 
 export const index = async (req, res) =>{
 	
+	var categories = await categorylib.getCategories();
+	if(categories){
 	
+		formatResponse(res, categories);
+	}else{
+		categories.message = 'Category not found';
+		formatResponse(res, err);
+		logger.error(err);
+
+	}
+
 };
 
 

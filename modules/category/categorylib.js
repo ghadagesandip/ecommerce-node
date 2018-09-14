@@ -1,7 +1,16 @@
 'use strict';
  
 import Category from './categorymodel';
-import logger from '../../utils/logger';
+
+export const getCategories = async () => {
+
+    try{
+        return await Category.find();
+    }catch(err){
+        return Promise.reject(err);
+    }
+}
+
 
 export const saveCategory = async(input) => {
 
