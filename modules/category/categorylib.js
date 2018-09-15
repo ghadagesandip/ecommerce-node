@@ -12,6 +12,36 @@ export const getCategories = async () => {
 }
 
 
+export const getCategoryById = async (id) => {
+
+    try{
+        return await Category.find({
+            _id: id
+        });
+    }catch(err){
+        return Promise.reject(err);
+    }
+}
+
+
+
+export const getCategoryWithProducts = async (limit) => {
+   
+    try{
+        return await Category
+        .find()
+        .populate({
+            path:'products',
+            select: 'name price description brand',
+            options:{limit:limit}
+        })
+        
+    }catch(err){
+        console.log('err', err);
+        return Promise.reject(err);
+    }
+}
+
 export const saveCategory = async(input) => {
 
     try{
@@ -19,6 +49,25 @@ export const saveCategory = async(input) => {
     }catch(err){
         return Promise.reject(err);
     }
+}
+
+export const addProductRef = async (categoryId, productId) => {
+
+    return new Promise((resolve, reject) => {
+
+        Category.findOne({_id:categoryId}, function(err, Category){
+            Category.products.push(productId);
+            Category.save(function(err, category){
+                if(err){
+                    reject(err);
+                }else{
+                    resolve(category);
+                }
+            })
+        })
+        
+    })
+    
 }
 
 export const updateCategory = async(id,input) => {

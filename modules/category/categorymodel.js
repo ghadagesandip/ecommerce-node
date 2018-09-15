@@ -14,8 +14,9 @@ const categorySchema = new Schema({
 		type:String,
 		unique: true,
 		index: true
-	}
-},{
+	},
+	products: [{ type: Schema.Types.ObjectId, ref: 'Product' }]
+},{	
 	versionKey: false
 });
 
