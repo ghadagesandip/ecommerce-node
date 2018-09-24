@@ -32,7 +32,7 @@ export const getCategoryWithProducts = async (limit) => {
         .find()
         .populate({
             path:'products',
-            select: 'name price description brand',
+            select: 'name price description brand colors',
             options:{limit:limit}
         })
         
