@@ -1,0 +1,639 @@
+[
+    {
+        "_id":"5b93e2cceae07a362d262dcd",
+        "name":"Phones",
+        "slug":"phones",
+        "products":[
+            {
+                "_id":"5b9d327dd681fb2c09836ad7",
+                "name":"Panasonic Eluga Ray 500 (Mocha Gold, 32 GB)  (3 GB RAM)",
+                "description":"With a stunning rear and front camera, an elegant body, a powerful processor and a host of other exciting features, the Panasonic is here to offer you the best bang for your buck. It also comes with 1 GB of RAM and a Quad-core MT6737M processor to make multitasking effortless for you. ",
+                "price":4390,
+                "brand":"Panasonic",
+                "image":"https://rukminim1.flixcart.com/image/832/832/jkh6m4w0/mobile/y/d/6/panasonic-p91-p91-original-imaf7tghzyw7hgbk.jpeg",
+                "variant":{
+                    "name":"color",
+                    "items":[
+                        {
+                            "_id":"5b9d327dd681fb2c09836ada",
+                            "value":"Red",
+                            "images":[
+                                {
+                                    "_id":"5b9d327dd681fb2c09836adb",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/jkh6m4w0/mobile/y/d/6/panasonic-p91-p91-original-imaf7tghzyw7hgbk.jpeg"
+                                }
+                            ]
+                        },
+                        {
+                            "_id":"5b9d327dd681fb2c09836ad8",
+                            "value":"Gold",
+                            "images":[
+                                {
+                                    "_id":"5b9d327dd681fb2c09836ad9",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/jkh6m4w0/mobile/u/m/y/panasonic-p91-p91-original-imaf7tgmmesfy39y.jpeg"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "_id":"5b9d35a3c3a8053565bff723",
+                "name":"Acer Liquid Z530 (Black, 16 GB)  (2 GB RAM)",
+                "description":"Brand Warranty of 1 Year Available for Mobile and 6 Months for AccessoriesKnow More",
+                "price":6999,
+                "brand":"Acer",
+                "image":"https://rukminim1.flixcart.com/image/832/832/mobile/z/k/h/acer-z530-na-original-imaec3gnz6uyhuzn.jpeg",
+                "variant":{
+                    "name":"color",
+                    "items":[
+                        {
+                            "_id":"5b9d35a3c3a8053565bff726",
+                            "value":"Black",
+                            "images":[
+                                {
+                                    "_id":"5b9d35a3c3a8053565bff727",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/mobile/z/k/h/acer-z530-na-original-imaec3gnz6uyhuzn.jpeg"
+                                }
+                            ]
+                        },
+                        {
+                            "_id":"5b9d35a3c3a8053565bff724",
+                            "value":"Gold",
+                            "images":[
+                                {
+                                    "_id":"5b9d35a3c3a8053565bff725",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/mobile/z/k/h/acer-z530-na-original-imaec3gnz6uyhuzn.jpeg"
+                                }
+                            ]
+                        }
+                    ]
+                    
+                }
+            },
+            {
+                "_id":"5b9bc5ae9d4d220c7e7ac334",
+                "name":"Mi note 5",
+                "description":"mi note 5 mobile",
+                "price":230,
+                "brand":"Mi",
+                "image":"https://rukminim1.flixcart.com/image/832/832/jdkjzww0/mobile/d/y/b/redmi-note-5-mzb5917in-original-imaf2g8zwrmywhqq.jpeg",
+                "varient":{
+                    "name":"color",
+                    "items":[
+                        {
+                            "_id":"5b9bc5ae9d4d220c7e7ac337",
+                            "value":"white",
+                            "images":[
+                                {
+                                    "_id":"5b9bc5ae9d4d220c7e7ac338",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/jdkjzww0/mobile/d/y/b/redmi-note-5-mzb5917in-original-imaf2g8zwrmywhqq.jpeg"
+                                }
+                            ]
+                            
+                        },
+                        {
+                            "_id":"5b9bc5ae9d4d220c7e7ac335",
+                            "color":"Black",
+                            "images":[
+                                {
+                                    "_id":"5b9bc5ae9d4d220c7e7ac336",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/jdkjzww0/mobile/u/y/j/redmi-note-5-mzb5916in-original-imaf2gabuvmuhvrz.jpeg"
+                                }
+                            ]
+                        }
+                    ]
+                    
+                }
+            },
+            {
+                "_id":"5b9bc7af9d4d220c7e7ac33d",
+                "name":"Moto g s plus",
+                "description":"moto g5 s plus",
+                "price":230,
+                "brand":"Mi",
+                "image":"https://images-na.ssl-images-amazon.com/images/I/71nbue7Kp3L._SY741_.jpg",
+                "varient":{
+                    "name":"color",
+                    "items":[
+                        {
+                            "_id":"5b9bc7af9d4d220c7e7ac340",
+                            "value":"Gold",
+                            "images":[
+                                {
+                                    "_id":"5b9bc7af9d4d220c7e7ac341",
+                                    "name":"https://images-na.ssl-images-amazon.com/images/I/71nbue7Kp3L._SY741_.jpg"
+                                }
+                            ]
+                            
+                        },
+                        {
+                            "images":[
+                                {
+                                    "_id":"5b9bc7af9d4d220c7e7ac33f",
+                                    "name":"https://images-na.ssl-images-amazon.com/images/I/71N5hSP49AL._SY741_.jpg"
+                                }
+                            ],
+                            "_id":"5b9bc7af9d4d220c7e7ac33e",
+                            "value":"Black"
+                        }
+                    ]
+                   
+                }
+            },
+            {
+                "_id":"5b9bc8c19d4d220c7e7ac349",
+                "name":"Apple iPhone SE",
+                "description":"Apple iPhone SE (Space Grey, 32 GB)",
+                "price":18999,
+                "brand":"Apple",
+                "image":"https://rukminim1.flixcart.com/image/832/832/j7qi9ow0/mobile/e/z/g/apple-iphone-se-mp822hn-a-original-imaexw6fyuqa9fpm.jpeg",
+                "varient":{
+                    "name":"color",
+                    "items":[
+                        {
+                            "images":[
+                                {
+                                    "_id":"5b9bc8c19d4d220c7e7ac34d",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/j7qi9ow0/mobile/e/z/g/apple-iphone-se-mp822hn-a-original-imaexw6fyuqa9fpm.jpeg"
+                                }
+                            ],
+                            "_id":"5b9bc8c19d4d220c7e7ac34c",
+                            "value":"Black"
+                        },
+                        {
+                            "images":[
+                                {
+                                    "_id":"5b9bc8c19d4d220c7e7ac34b",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/j7qi9ow0/mobile/q/k/h/apple-iphone-se-mp842hn-a-original-imaexw6frwpducnb.jpeg"
+                                }
+                            ],
+                            "_id":"5b9bc8c19d4d220c7e7ac34a",
+                            "value":"Gold"
+                        }
+                    ]
+                   
+                }
+            }
+        ]
+    },
+    {
+        "_id":"5b93e31feae07a362d262dce",
+        "name":"Laptops",
+        "slug":"laptops",
+        "products":[
+            {
+                "_id":"5b9bc8c19d4d220c7e7acsds",
+                "name":"HP 15q Core i3 7th Gen",
+                "description":"HP 15q Core i3 7th Gen - (4 GB/1 TB HDD/DOS) 15q-bu037TU Laptop  (15.6 inch, Sparkling Black, 2.1 kg)",
+                "price":24800,
+                "brand":"HP",
+                "image":"https://rukminim1.flixcart.com/image/832/832/jjn6d8w0/computer/e/v/b/hp-na-laptop-original-imaf7657hgvqdghf.jpeg?q=70",
+                "varient":{
+                    "name":"color",
+                    "items":[
+                        {
+                            "images":[
+                                {
+                                    "_id":"5b9bc8c19d4d220c7e7ac341",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/jjn6d8w0/computer/e/v/b/hp-na-laptop-original-imaf7657hgvqdghf.jpeg?q=70"
+                                },
+                                {
+                                    "_id":"5b9bc8c19d4d220c7e7ac342",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/jjn6d8w0/computer/n/z/x/hp-na-laptop-original-imaf765czqr4hjux.jpeg?q=70"
+                                }
+                            ],
+                            "_id":"5b9bc8c19d4d220c7e7ac34c",
+                            "value":"Black"
+                        }
+                    ]
+                   
+                }
+            },
+            {
+                "_id":"5b9bc8c19d4d220c7e7acsyu",
+                "name":"Acer Switch One Atom Quad Core - (2 GB/32 GB EMMC Storage/Windows 10 Home) SW110-1CT / SW110-ICT 2 in 1 Laptop  (10.1 inch, Black)",
+                "description":"Acer Switch One Atom Quad Core - (2 GB/32 GB EMMC Storage/Windows 10 Home) SW110-1CT / SW110-ICT 2 in 1 Laptop  (10.1 inch, Black)",
+                "price":13000,
+                "brand":"Acer",
+                "image":"https://rukminim1.flixcart.com/image/832/832/j7f2qvk0/computer/q/u/u/acer-2-in-1-laptop-original-imaexntyzat8vg8g.jpeg?q=70",
+                "varient":{
+                    "name":"color",
+                    "items":[
+                        {
+                            "_id":"5b9bc8c19d4d220c7e7ac34c",
+                            "value":"Black",
+                            "images":[
+                                {
+                                    "_id":"5b9bc8c19d4d220c7e7ac341",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/j7f2qvk0/computer/q/u/u/acer-2-in-1-laptop-original-imaexntyzat8vg8g.jpeg?q=70"
+                                },
+                                {
+                                    "_id":"5b9bc8c19d4d220c7e7ac342",
+                                    "name":"https://rukminim1.flixcart.com/image/128/128/j7f2qvk0/computer/q/u/u/acer-2-in-1-laptop-original-imaexntyzys4k5ww.jpeg?q=70"
+                                }
+                            ]
+                        }
+                    ]
+                   
+                }
+            },
+            {
+                "_id":"5b9bc8c19d4d220c7e7acsy8",
+                "name":"Dell Inspiron 15 3000 APU Dual Core A9 - (8 GB/1 TB HDD/Windows 10 Home) 3565 Laptop  (15.6 inch, Black, 2.3 kg, With MS Office)",
+                "description":"Dell Inspiron 15 3000 APU Dual Core A9 - (8 GB/1 TB HDD/Windows 10 Home) 3565 Laptop  (15.6 inch, Black, 2.3 kg, With MS Office)",
+                "price":30800,
+                "brand":"Dell",
+                "image":"https://rukminim1.flixcart.com/image/832/832/jj4ln680-1/computer/5/y/4/dell-na-laptop-original-imaf6rrnfjjj6xpy.jpeg?q=70",
+                "varient":{
+                    "name":"color",
+                    "items":[
+                        {
+                            "_id":"5b9bc8c19d4d220c7e7ac347",
+                            "value":"Black",
+                            "images":[
+                                {
+                                    "_id":"5b9bc8c19d4d220c7e7ac370",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/jj4ln680-1/computer/5/y/4/dell-na-laptop-original-imaf6rrnfjjj6xpy.jpeg?q=70"
+                                },
+                                {
+                                    "_id":"5b9bc8c19d4d220c7e7ac365",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/jj4ln680-1/computer/5/y/4/dell-na-laptop-original-imaf6rrnqdfytmze.jpeg?q=70"
+                                }
+                            ]
+                        }
+                    ]
+                   
+                }
+            },
+            {
+                "_id":"5b9bc8c19d4d220c7e7acs98",
+                "name":"Apple MacBook Air Core i5 5th Gen - (8 GB/128 GB SSD/Mac OS Sierra) MQD32HN/A A1466  (13.3 inch, Silver, 1.35 kg)",
+                "description":"Apple MacBook Air Core i5 5th Gen - (8 GB/128 GB SSD/Mac OS Sierra) MQD32HN/A A1466  (13.3 inch, Silver, 1.35 kg)",
+                "price":62890,
+                "brand":"Apple",
+                "image":"https://rukminim1.flixcart.com/image/832/832/j4irlow0/computer/j/8/c/apple-na-notebook-original-imaevdrcvuksg2zv.jpeg?q=70",
+                "varient":{
+                    "name":"color",
+                    "items":[
+                        {
+                            "_id":"5b9bc8c19d4d220c7e7ac39n",
+                            "value":"Black",
+                            "images":[
+                                {
+                                    "_id":"5b9bc8c19d4d220c7e7aY070",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/j4irlow0/computer/j/8/c/apple-na-notebook-original-imaevdrcvuksg2zv.jpeg?q=70"
+                                },
+                                {
+                                    "_id":"5b9bc8c19d4d220c7e7ac665",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/j4irlow0/computer/j/8/c/apple-na-notebook-original-imaevdrm8zxsqc2d.jpeg?q=70"
+                                }
+                            ]
+                        }
+                    ]
+                   
+                }
+            },
+            {
+                "_id":"5b9bc8c19d4d220c7e7a6t98",
+                "name":"Asus EeeBook Celeron Dual Core - (2 GB/32 GB EMMC Storage/Windows 10 Home) E203NA-FD088T Thin and Light Laptop  (11.6 inch, Star Grey, 0.98 kg)",
+                "description":"Asus EeeBook Celeron Dual Core - (2 GB/32 GB EMMC Storage/Windows 10 Home) E203NA-FD088T Thin and Light Laptop  (11.6 inch, Star Grey, 0.98 kg)",
+                "price":13990,
+                "brand":"Asus",
+                "image":"https://rukminim1.flixcart.com/image/832/832/jfvfjbk0/computer/y/y/m/asus-na-thin-and-light-laptop-original-imaf48kyyuy3qehh.jpeg?q=70",
+                "varient":{
+                    "name":"color",
+                    "items":[
+                        {
+                            "_id":"5b9bc8c19d4d290c7e7ac39n",
+                            "value":"Black",
+                            "images":[
+                                {
+                                    "_id":"5b9bc8c19d4d220c7e90aY070",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/jfvfjbk0/computer/y/y/m/asus-na-thin-and-light-laptop-original-imaf48kyyuy3qehh.jpeg?q=70"
+                                },
+                                {
+                                    "_id":"5b9bc8c19d4d220c7e7ac665",
+                                    "name":"https://rukminim1.flixcart.com/image/128/128/jfvfjbk0/computer/y/y/m/asus-na-thin-and-light-laptop-original-imaf48jyzdgu9zzh.jpeg?q=70"
+                                }
+                            ]
+                        }
+                    ]
+                   
+                }
+            }
+        ]
+       
+    },
+    {
+        "_id":"5b93e337eae07a362d262dcf",
+        "name":"Camera",
+        "slug":"camera",
+        "products":[
+            {
+                "_id":"5b9bc8c19d4d920c7e7a6t98",
+                "name":"Nikon Coolpix B500 Point & Shoot Camera  (Red)",
+                "description":"Nikon Coolpix B500 Point & Shoot Camera  (Red)",
+                "price":15180,
+                "brand":"Nikon",
+                "image":"https://rukminim1.flixcart.com/image/832/832/camera/k/m/6/nikon-coolpix-b500-point-shoot-original-imaejyd4bzaz3xff.jpeg?q=70",
+                "varient":{
+                    "name":"Color",
+                    "items":[
+                        {
+                            "_id":"5b9bc8c19d4d290c07ac39n",
+                            "value":"Red",
+                            "images":[
+                                {
+                                    "_id":"5b9bc8c19d6d220c7e90aY070",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/camera/k/m/6/nikon-coolpix-b500-point-shoot-original-imaejyd4bzaz3xff.jpeg?q=70"
+                                },
+                                {
+                                    "_id":"5b9bc8c19d4d220c7e7ac665",
+                                    "name":"https://rukminim1.flixcart.com/image/128/128/camera/k/m/6/nikon-coolpix-b500-point-shoot-original-imaejyd4sn9hdycg.jpeg?q=70"
+                                }
+                            ]
+                        },
+                        {
+                            "_id":"5b9bc8c19d4d295c07ac39n",
+                            "value":"Black",
+                            "images":[
+                                {
+                                    "_id":"5b9bc8c19h6d220c7e90aY070",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/camera/k/t/z/nikon-coolpix-b500-point-shoot-original-imaejyd4grchg6vk.jpeg?q=70"
+                                },
+                                {
+                                    "_id":"5b9bc8c19d4d220c7e0ac665",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/camera/k/t/z/nikon-coolpix-b500-point-shoot-original-imaejyd4jwshfubh.jpeg?q=70"
+                                }
+                            ]
+                        }
+                    ]
+                   
+                }
+            },
+            {
+                "_id":"5b9bc8c1994d920c7e7a6t98",
+                "name":"Sony DSC-H300 Point & Shoot Camera  (Black)",
+                "description":"Sony DSC-H300 Point & Shoot Camera  (Black)",
+                "price":15900,
+                "brand":"Sony",
+                "image":"https://rukminim1.flixcart.com/image/832/832/camera/c/h/h/sony-cyber-shot-dsc-h300-advance-point-and-shoot-original-imadpzjmc3hwsnf7.jpeg?q=70",
+                "varient":{
+                    "name":"Color",
+                    "items":[
+                        {
+                            "_id":"5b9bc8c19d4d290c07ac39n",
+                            "value":"Black",
+                            "images":[
+                                {
+                                    "_id":"5b9bc8u19d6d220c7e90aY070",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/camera/c/h/h/sony-cyber-shot-dsc-h300-advance-point-and-shoot-original-imadpzjmc3hwsnf7.jpeg?q=70"
+                                },
+                                {
+                                    "_id":"5b9bc8c09d4d220c7e7ac665",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/camera/c/h/h/sony-cyber-shot-dsc-h300-advance-point-and-shoot-original-imadpzjmczsn6teg.jpeg?q=70"
+                                }
+                            ]
+                        }
+                    ]
+                   
+                }
+            },
+            {
+                "_id":"5b9bc8c1994d920c7e7a6t98",
+                "name":"Sony DSC-H300 Point & Shoot Camera  (Black)",
+                "description":"Sony DSC-H300 Point & Shoot Camera  (Black)",
+                "price":15900,
+                "brand":"Sony",
+                "image":"https://rukminim1.flixcart.com/image/832/832/camera/c/h/h/sony-cyber-shot-dsc-h300-advance-point-and-shoot-original-imadpzjmc3hwsnf7.jpeg?q=70",
+                "varient":{
+                    "name":"Color",
+                    "items":[
+                        {
+                            "_id":"5b9bc8c19d4d290c07ac39n",
+                            "value":"Black",
+                            "images":[
+                                {
+                                    "_id":"5b9bc8u19d6d220c7e90aY070",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/camera/c/h/h/sony-cyber-shot-dsc-h300-advance-point-and-shoot-original-imadpzjmc3hwsnf7.jpeg?q=70"
+                                },
+                                {
+                                    "_id":"5b9bc8c09d4d220c7e7ac665",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/camera/c/h/h/sony-cyber-shot-dsc-h300-advance-point-and-shoot-original-imadpzjmczsn6teg.jpeg?q=70"
+                                }
+                            ]
+                        }
+                    ]
+                   
+                }
+            },
+            {
+                "_id":"5b9bc8c1994d920c7e7a6t98",
+                "name":"Sony DSC-H300 Point & Shoot Camera  (Black)",
+                "description":"Sony DSC-H300 Point & Shoot Camera  (Black)",
+                "price":15900,
+                "brand":"Sony",
+                "image":"https://rukminim1.flixcart.com/image/832/832/camera/c/h/h/sony-cyber-shot-dsc-h300-advance-point-and-shoot-original-imadpzjmc3hwsnf7.jpeg?q=70",
+                "varient":{
+                    "name":"Color",
+                    "items":[
+                        {
+                            "_id":"5b9bc8c19d4d290c07ac39n",
+                            "value":"Black",
+                            "images":[
+                                {
+                                    "_id":"5b9bc8u19d6d220c7e90aY070",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/camera/c/h/h/sony-cyber-shot-dsc-h300-advance-point-and-shoot-original-imadpzjmc3hwsnf7.jpeg?q=70"
+                                },
+                                {
+                                    "_id":"5b9bc8c09d4d220c7e7ac665",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/camera/c/h/h/sony-cyber-shot-dsc-h300-advance-point-and-shoot-original-imadpzjmczsn6teg.jpeg?q=70"
+                                }
+                            ]
+                        }
+                    ]
+                   
+                }
+            },
+            {
+                "_id":"5b9bc8c1994d920m7e7a6t98",
+                "name":"Canon Powershot SX430 IS Point and Shoot Camera  (20 MP, 45x Optical Zoom, 8x Digital Zoom, Black)",
+                "description":"Canon Powershot SX430 IS Point and Shoot Camera  (20 MP, 45x Optical Zoom, 8x Digital Zoom, Black)",
+                "price":13990,
+                "brand":"Canon",
+                "image":"https://rukminim1.flixcart.com/image/832/832/point-shoot-camera/d/z/q/powershot-sx430-is-sx430-is-canon-original-imaerzagfxnfmtyr.jpeg?q=70",
+                "varient":{
+                    "name":"Color",
+                    "items":[
+                        {
+                            "_id":"5b9bc8c19d4d2h0c07ac39n",
+                            "value":"Black",
+                            "images":[
+                                {
+                                    "_id":"5b9bc8u19d6d220c7e90aY070",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/point-shoot-camera/d/z/q/powershot-sx430-is-sx430-is-canon-original-imaerzagfxnfmtyr.jpeg?q=70"
+                                },
+                                {
+                                    "_id":"5b9bc8c09d4d220c7e7ac665",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/point-shoot-camera/d/z/q/powershot-sx430-is-sx430-is-canon-original-imaerzaghpykkbbv.jpeg?q=70"
+                                }
+                            ]
+                        }
+                    ]
+                   
+                }
+            }
+        ]
+        
+    },
+    {
+        "_id":"5b93e361eae07a362d262dd0",
+        "name":"Footwear",
+        "slug":"footwear",
+        "products":[
+            {
+                "_id":"5b9bc8cs994d920m7e7a6t98",
+                "name":"Axter 114 Sneakers For Men  (Grey)",
+                "description":"Axter 114 Sneakers For Men  (Grey)",
+                "price":379,
+                "brand":"Axter",
+                "image":"https://rukminim1.flixcart.com/image/832/832/jlqwpe80/shoe/6/u/5/camfoot-2-114-461-6-camfoot-multicolor-original-imaerj3p4qaadhfx.jpeg?q=70",
+                "varient":{
+                    "name":"Size",
+                    "items":[
+                        {
+                            "_id":"5b9bc8c19d4d2k0c07ac39n",
+                            "value":"7",
+                            "images":[
+                                {
+                                    "_id":"5b9bc8u19d6d220cpe90aY070",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/jlqwpe80/shoe/6/u/5/camfoot-2-114-461-6-camfoot-multicolor-original-imaerj3p4qaadhfx.jpeg?q=70"
+                                },
+                                {
+                                    "_id":"5b9bc8c09d4d220c7e7ac665",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/jl5h3m80/shoe/m/a/g/vvs-114-6-world-wear-footwear-grey-original-imaerj3p6gybe2g3.jpeg?q=70"
+                                }
+                            ]
+                        }
+                    ]
+                   
+                }
+            },
+            {
+                "_id":"5b9bc8c1994d920m7e7a6t98",
+                "name":"Kraasa Solid Casuals For Men  (Black)",
+                "description":"Kraasa Solid Casuals For Men  (Black)",
+                "price":590,
+                "brand":"Kraasa",
+                "image":"https://rukminim1.flixcart.com/image/832/832/jdrp7680/shoe/q/r/z/ca4155-6-kraasa-black-original-imaf2hmqxn3yfscw.jpeg?q=70",
+                "varient":{
+                    "name":"Color",
+                    "items":[
+                        {
+                            "_id":"5b9bc8c19d4d2h9c07ac39n",
+                            "value":"Black",
+                            "images":[
+                                {
+                                    "_id":"5b9bc8u19d6d220c7e90aY070",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/jdrp7680/shoe/q/r/z/ca4155-6-kraasa-black-original-imaf2hmqxn3yfscw.jpeg?q=70"
+                                },
+                                {
+                                    "_id":"5b9bc8c09d4d220c7e7ac665",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/jdrp7680/shoe/y/z/g/ca4155-7-kraasa-beige-original-imaf2hmqzk5yc8eb.jpeg?q=70"
+                                }
+                            ]
+                        }
+                    ]
+                   
+                }
+            },
+            {
+                "_id":"5b9bc8c1994d920m7e7a6t98",
+                "name":"Kraasa Solid Casuals For Men  (Black)",
+                "description":"Kraasa Solid Casuals For Men  (Black)",
+                "price":590,
+                "brand":"Kraasa",
+                "image":"https://rukminim1.flixcart.com/image/832/832/jdrp7680/shoe/q/r/z/ca4155-6-kraasa-black-original-imaf2hmqxn3yfscw.jpeg?q=70",
+                "varient":{
+                    "name":"Color",
+                    "items":[
+                        {
+                            "_id":"5b9bc8c19d4d2h9c07ac39n",
+                            "value":"Black",
+                            "images":[
+                                {
+                                    "_id":"5b9bc8u19d6d220c7e90aY070",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/jdrp7680/shoe/q/r/z/ca4155-6-kraasa-black-original-imaf2hmqxn3yfscw.jpeg?q=70"
+                                },
+                                {
+                                    "_id":"5b9bc8c09d4d220c7e7ac665",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/jdrp7680/shoe/y/z/g/ca4155-7-kraasa-beige-original-imaf2hmqzk5yc8eb.jpeg?q=70"
+                                }
+                            ]
+                        }
+                    ]
+                   
+                }
+            },
+            {
+                "_id":"5b9bc8c1994d920m7e7a6t98",
+                "name":"Kraasa Solid Casuals For Men  (Black)",
+                "description":"Kraasa Solid Casuals For Men  (Black)",
+                "price":590,
+                "brand":"Kraasa",
+                "image":"https://rukminim1.flixcart.com/image/832/832/jdrp7680/shoe/q/r/z/ca4155-6-kraasa-black-original-imaf2hmqxn3yfscw.jpeg?q=70",
+                "varient":{
+                    "name":"Color",
+                    "items":[
+                        {
+                            "_id":"5b9bc8c19d4d2h9c07ac39n",
+                            "value":"Black",
+                            "images":[
+                                {
+                                    "_id":"5b9bc8u19d6d220c7e90aY070",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/jdrp7680/shoe/q/r/z/ca4155-6-kraasa-black-original-imaf2hmqxn3yfscw.jpeg?q=70"
+                                },
+                                {
+                                    "_id":"5b9bc8c09d4d220c7e7ac665",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/jdrp7680/shoe/y/z/g/ca4155-7-kraasa-beige-original-imaf2hmqzk5yc8eb.jpeg?q=70"
+                                }
+                            ]
+                        }
+                    ]
+                   
+                }
+            },
+            {
+                "_id":"5b9bc8c1994d920m7e7a6t98",
+                "name":"Kraasa Solid Casuals For Men  (Black)",
+                "description":"Kraasa Solid Casuals For Men  (Black)",
+                "price":590,
+                "brand":"Kraasa",
+                "image":"https://rukminim1.flixcart.com/image/832/832/jdrp7680/shoe/q/r/z/ca4155-6-kraasa-black-original-imaf2hmqxn3yfscw.jpeg?q=70",
+                "varient":{
+                    "name":"Color",
+                    "items":[
+                        {
+                            "_id":"5b9bc8c19d4d2h9c07ac39n",
+                            "value":"Black",
+                            "images":[
+                                {
+                                    "_id":"5b9bc8u19d6d220c7e90aY070",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/jdrp7680/shoe/q/r/z/ca4155-6-kraasa-black-original-imaf2hmqxn3yfscw.jpeg?q=70"
+                                },
+                                {
+                                    "_id":"5b9bc8c09d4d220c7e7ac665",
+                                    "name":"https://rukminim1.flixcart.com/image/832/832/jdrp7680/shoe/y/z/g/ca4155-7-kraasa-beige-original-imaf2hmqzk5yc8eb.jpeg?q=70"
+                                }
+                            ]
+                        }
+                    ]
+                   
+                }
+            }
+
+        ]
+       
+    }
+]

@@ -3,6 +3,7 @@ import mongoose from 'mongoose';
 const Schema = mongoose.Schema;
 
 const _colorSchema =  new Schema({color: String, images: [{name:String}]});
+const _sizeSchema = new Schema({size: String, images: [{name:String}]});
 const _highlightsSChema = new Schema({title:String});
 const _productProperty = new Schema({title:{type:String}, value:String});
 
@@ -22,10 +23,16 @@ const productSchema = new Schema({
 		type: String
 	},
 	colors : [_colorSchema],
+	sizes : [_sizeSchema],
+	
 	highlights: [_highlightsSChema],
 	general :[_productProperty],
 	//phones attributes
 	display_features: [_productProperty],
+	internet_feature : [_productProperty],
+	connectivity_features: [_productProperty],
+	video_features: [_productProperty],
+	smart_tv_features: [_productProperty],
 	os_and_processor:[_productProperty],
 	memory_and_storage:[_productProperty],
 	camera:[_productProperty],

@@ -1,4 +1,6 @@
 
+const fs = require('fs');
+
 import * as categorylib from './categorylib';
 import logger from '../../utils/logger';
 import formatResponse from '../../utils/formatResponse';
@@ -35,10 +37,9 @@ export const getCategoryById = async (req, res) => {
 }
 
 export const getCategoryWithProducts = async (req, res) => {
-
-	var productLimit = req.params.limit || 3;
-	console.log('productLimit', productLimit)
-	var categories = await categorylib.getCategoryWithProducts(productLimit);
+	var productLimit = req.query.limit || 3;
+	//var categories = await categorylib.getCategoryWithProducts(productLimit);
+	var categories = JSON.parse(fs.readFileSync(__dirname+'/data/categorywithproducts.json'));
 	if(categories){
 		formatResponse(res, categories);
 	}else{

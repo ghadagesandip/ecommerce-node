@@ -27,7 +27,7 @@ export const getCategoryById = async (id) => {
 
 export const getCategoryWithProducts = async (limit) => {
    
-    try{
+    try{    
         return await Category
         .find()
         .populate({
